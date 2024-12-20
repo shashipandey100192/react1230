@@ -7,11 +7,15 @@ import "bootstrap/dist/js/bootstrap.bundle.js";
 import "./style.css";
 import UUU from './Mytspage.ts';
 import Mycontactus from './Contactus.js';
+import Myreactbootstrap from './Myreactbootstrap.js';
+import Mymuipage from './Mymuipage.js';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
+    <Myreactbootstrap/>
+    <Mymuipage/>
     <h1>sdfhsdjkfhj</h1>
     <div>sdjfhjsdhf sdfsdfsdfds</div>
     <About></About>
