@@ -9,11 +9,13 @@ import UUU from './Mytspage.ts';
 import Mycontactus from './Contactus.js';
 import Myreactbootstrap from './Myreactbootstrap.js';
 import Mymuipage from './Mymuipage.js';
+import Myreacticons from './Myreacticons.js';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
+    <Myreacticons></Myreacticons>
     <Myreactbootstrap/>
     <Mymuipage/>
     <h1>sdfhsdjkfhj</h1>
