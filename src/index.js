@@ -7,6 +7,7 @@ import "./modules/css/global.css";
 import Myloginpage from './modules/auth/Myloginpage';
 import Registorpage from './modules/auth/Registorpage';
 import Mainpage from './modules/dashbord/Mainpage';
+import Mylandingpage from './modules/dashbord/Mylandingpage';
 
 
 
@@ -19,14 +20,11 @@ root.render(
       <Routes>
           <Route path='' element={<Myloginpage/>}></Route>
           <Route path='registor' element={<Registorpage/>}></Route>
-          <Route path='dashboard' element={<Mainpage/>}></Route>
-          
-
+          <Route path='dashboard' element={<Mainpage/>}>
+            <Route path='' element={<Mylandingpage/>}/>
+          </Route>
       </Routes>
-      
     </BrowserRouter>
-    
-    
   </React.StrictMode>
 );
 
