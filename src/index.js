@@ -8,6 +8,7 @@ import Myloginpage from './modules/auth/Myloginpage';
 import Registorpage from './modules/auth/Registorpage';
 import Mainpage from './modules/dashbord/Mainpage';
 import Mylandingpage from './modules/dashbord/Mylandingpage';
+import Reactproperty from './modules/dashbord/Reactproperty';
 
 
 
@@ -22,6 +23,7 @@ root.render(
           <Route path='registor' element={<Registorpage/>}></Route>
           <Route path='dashboard' element={<Mainpage/>}>
             <Route path='' element={<Mylandingpage/>}/>
+            <Route path="props" element={<Reactproperty/>}/>
           </Route>
       </Routes>
     </BrowserRouter>
