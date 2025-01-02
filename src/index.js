@@ -9,6 +9,7 @@ import Registorpage from './modules/auth/Registorpage';
 import Mainpage from './modules/dashbord/Mainpage';
 import Mylandingpage from './modules/dashbord/Mylandingpage';
 import Reactproperty from './modules/dashbord/Reactproperty';
+import Myfetchapipage from './modules/dashbord/Myfetchapipage';
 
 
 
@@ -24,6 +25,7 @@ root.render(
           <Route path='dashboard' element={<Mainpage/>}>
             <Route path='' element={<Mylandingpage/>}/>
             <Route path="props" element={<Reactproperty/>}/>
+            <Route path='datafetch' element={<Myfetchapipage/>}/>
           </Route>
       </Routes>
     </BrowserRouter>

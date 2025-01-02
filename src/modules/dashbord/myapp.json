@@ -1,8 +1,9 @@
  [
     {
-        "appname":"drive",
+        "appname":"google",
         "appicon":"<DiGoogleDrive/>",
-        "appcode":458
+        "appcode":458,
+        "applink":"http://google.com"
     },
     {
         "appname":"google",
@@ -75,8 +76,9 @@
         "appcode":458
     },
     {
-        "appname":"drive",
-        "appicon":"<DiGoogleDrive/>",
-        "appcode":458
+        "appname":"Youtube",
+        "appicon":"https://cdn-icons-png.flaticon.com/512/1384/1384060.png",
+        "appcode":888,
+        "applink":"http://youtube.com"
     }
 ]
