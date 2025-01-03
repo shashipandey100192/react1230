@@ -5,6 +5,7 @@ function Myfetchapipage() {
     const [a, b] = useState([])
     const getdataapi = () => {
         fetch('https://jsonplaceholder.typicode.com/posts').then((d) => {
+            console.log(d)
             return d.json();
         }).then((r) => {
             b(r)
@@ -12,7 +13,7 @@ function Myfetchapipage() {
     }
     useEffect(() => {
         getdataapi();
-    })
+    },[])
 
 
 

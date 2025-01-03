@@ -63,4 +63,15 @@
     min-height: 80vh;
     max-height: fit-content;
   }
-  
+  .myerr
+  {
+    font-size: 80px !important;
+  }
+  .ccard
+  {
+    display: flex;
+  }
+  .ccard>section
+  {
+    flex:1;
+  }

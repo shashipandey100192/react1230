@@ -19,6 +19,7 @@ function Mysidenav() {
             <li><Link to="props" className="link-body-emphasis d-inline-flex text-decoration-none rounded">Props</Link></li>
             <li><Link to="#" className="link-body-emphasis d-inline-flex text-decoration-none rounded">Jsx</Link></li>
             <li><Link to="datafetch" className="link-body-emphasis d-inline-flex text-decoration-none rounded">fetch</Link></li>
+            <li><Link to="axiospage" className="link-body-emphasis d-inline-flex text-decoration-none rounded">Axios</Link></li>
           </ul>
         </div>
       </li>

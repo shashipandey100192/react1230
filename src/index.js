@@ -10,6 +10,9 @@ import Mainpage from './modules/dashbord/Mainpage';
 import Mylandingpage from './modules/dashbord/Mylandingpage';
 import Reactproperty from './modules/dashbord/Reactproperty';
 import Myfetchapipage from './modules/dashbord/Myfetchapipage';
+import Myaxiospage from './modules/dashbord/Myaxiospage';
+import Myerrorpage from './modules/sharecomponent/Myerrorpage';
+import Mydetailspage from './modules/dashbord/Mydetailspage';
 
 
 
@@ -26,7 +29,12 @@ root.render(
             <Route path='' element={<Mylandingpage/>}/>
             <Route path="props" element={<Reactproperty/>}/>
             <Route path='datafetch' element={<Myfetchapipage/>}/>
+            <Route path='axiospage' element={<Myaxiospage/>}/>
+            <Route path="axiospage/details/:id" element={<Mydetailspage/>}></Route>                                                                    
+            <Route path='*' element={<Myerrorpage/>}/>
+            
           </Route>
+          <Route path='*' element={<Myerrorpage/>}/>
       </Routes>
     </BrowserRouter>
   </React.StrictMode>
